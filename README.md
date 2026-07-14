@@ -7,8 +7,6 @@
 
 **VirusAgent** is an autonomous scientific discovery pipeline for SARS-CoV-2 host–pathogen interactome analysis. It integrates AP-MS proteomics, structural prediction, and multi-modal evidence calibration through a three-stage **Observe–Investigate–Critique** cognitive cycle.
 
-![VirusAgent three-stage framework](results/figs/Fig1a.png)
-
 ---
 
 ## ⚙️ Installation
