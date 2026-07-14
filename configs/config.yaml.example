@@ -1,0 +1,19 @@
+inputs:
+  apms_root: data/apms_raw               # directory containing per-strain AP-MS files
+  controls_dir: data/apms_raw/controlgroup
+  sequences_by_gene: data/sequences      # FASTA files named by gene symbol
+  highdim_dir: af3_analysis/high_dimensional_embeddings
+
+outputs:
+  intermediate_dir: results/stage2_interactome/intermediate
+  tables_dir: results/stage2_interactome/tables
+  figs_dir: results/stage2_interactome/figs
+
+params:
+  pseudo_intensity_percentile: 5
+  z_ctrl_threshold_high: 3.0
+  log2fc_threshold_high: 1.0
+  wd_threshold: 1.5
+  specificity_min: 0.5
+  mist_threshold: 0.7
+  random_seed: 42

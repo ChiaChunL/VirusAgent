@@ -1,0 +1,19 @@
+{
+  "feature_weights": {
+    "n_high": 0.29136745481776577,
+    "mean_WD": 0.02083104640391065,
+    "max_z": 0.03529984784910712,
+    "mean_MiST": 0.15329144282897597,
+    "deg_centrality": 0.04301194151191892,
+    "eig_centrality": 0.4561982665883216
+  },
+  "method": "entropy",
+  "feature_set": [
+    "n_high",
+    "mean_WD",
+    "max_z",
+    "mean_MiST",
+    "deg_centrality",
+    "eig_centrality"
+  ]
+}
